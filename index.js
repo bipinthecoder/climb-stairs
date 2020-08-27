@@ -16,7 +16,7 @@ function getCount(N){
     let i = X[j];
 
     let sum = 0;
-    while(i <= top && j < X.length){
+    while(i <= top && j < X.length){ //iterating through Array X to find sum
         let diff = N - i
         sum += getCount(diff);
         j ++;
